@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+
+api_key
+
+env/
+.settings/
