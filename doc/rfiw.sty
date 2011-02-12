@@ -1,0 +1,67 @@
+%%% INCLUDES
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{mathpazo}
+\usepackage{parskip}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+\usepackage{xspace}
+\usepackage{mdwlist}
+\usepackage[normalsize,centerlast,bf]{caption}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{latexsym,wasysym,textcomp}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{hyperref}
+%\usepackage{pstricks}
+%\usepackage{pstricks,pst-node,pst-tree,pst-coil}
+\usepackage{makeidx}
+\usepackage{listings}
+\usepackage{eurosym}
+\usepackage{color}
+\usepackage{soul}
+%%% END INCLUDES
+
+%%% FORMAT
+
+\usecolortheme{seagull}
+\setbeamercovered{dynamic}
+\setbeamertemplate{blocks}[rounded][shadow=false] 
+\setbeamerfont{framesubtitle}{size={\large}}
+%%% END FORMAT
+
+\definecolor{darkgray}{rgb}{0.2,0.2,0.2}
+\definecolor{lightgray}{rgb}{0.9,0.9,0.9}
+\definecolor{notsolightgray}{rgb}{0.3,0.3,0.3}
+
+% Comanda per C++ bonic
+\newcommand{\CPP}{\mbox{{C\hspace{-.05em}\raisebox{.2ex}{\small\bf ++}}}\xspace}
+
+%%% LISTINGS
+\lstset{language=C++,
+		columns=flexible,
+		keepspaces=true,
+		morekeywords={include,cin,cout,endl},
+		belowskip=0mm,
+		stringstyle={},
+		commentstyle={},
+		numberstyle=\tiny\sffamily,
+		numbersep=-5pt,
+		keywordstyle=\bfseries,
+    emphstyle=\bfseries,
+		identifierstyle=\itshape,
+		showstringspaces=false,
+		upquote=true,
+		texcl=true,
+		mathescape=true,
+		literate={<=}{$\le$}1 {>=}{$\ge$}1 {!=}{$\neq$}1 {<<}{$<\!\!\!<$}2 {>>}{$>\!\!\!>$}2,
+		xleftmargin=0.25cm,
+    frame=single}
+%%% END LISTINGS
+
+
+
+
