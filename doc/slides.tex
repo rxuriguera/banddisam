@@ -18,7 +18,7 @@
 \def\bS{{\mathbb S}}
 
 
-\newcommand{\docTitle}{Artist Disambiguation / Track Clustering}
+\newcommand{\docTitle}{Track Clustering for Artist Disambiguation}
 \newcommand{\subjectName}{Hack U}
 \newcommand{\authors}{}
 
@@ -50,7 +50,7 @@
       \item{}
       Tracks are tagged accordingly
       \item{}
-      Solution: Cluster tags
+      Solution: Cluster tracks by tag
     \end{enumerate}
     
   \end{frame}
@@ -93,7 +93,8 @@
       \item{}
       Clustering algorithm must be replaced\\
       \textcolor{gray}{Currently using hierarchical clustering with a threshold on the
-      max. number of clusters and using complete linkage}
+      max. number of clusters and using complete linkage\\
+      Other algorithms using frequent tag sets might be more appropiate}
       \item{}
       Only makes sense when applied during track streaming\\
       \textcolor{gray}{Chrome extension just for the sake of this demo}
