@@ -1,0 +1,10 @@
+*.log 
+*.aux 
+*.bbl 
+*.blg 
+*.out 
+*.toc 
+*.nav 
+*.snm 
+*~ 
+slides.pdf
