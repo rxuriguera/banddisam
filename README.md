@@ -9,10 +9,9 @@ page for all the bands sharing the same name.
 
 For instance, the following two albuns actually belong 
 to  two different artists:
-http://www.last.fm/music/SoKo/Two
-(tags: love, mood, ambient)
 
-http://www.last.fm/music/SoKo/I+Thought+I+Was+an+Alien
+- http://www.last.fm/music/SoKo/Two
+- http://www.last.fm/music/SoKo/I+Thought+I+Was+an+Alien
 
 
 The aim of this project is to automatically disambiguate 
