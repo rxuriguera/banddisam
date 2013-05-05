@@ -15,7 +15,7 @@ to  two different artists:
 
 
 The aim of this project is to automatically disambiguate 
-bands by creating clusters of tracks depending using the 
+bands by creating clusters of tracks by using the 
 tracks' tags as attributes. In the example above, most of 
 the tracks for the first album are tagged with words like 
 "chillout", "mood", "ambient" while the tracks of the second 
